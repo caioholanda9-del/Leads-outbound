@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "leads-outbound"
 version = "0.1.0"
 description = "Plataforma de filtragem de CNPJ por CNAE para prospecção outbound"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.30.0",
