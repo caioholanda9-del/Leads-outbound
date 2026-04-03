@@ -1,0 +1,40 @@
+# Ambiente Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.uv/
+dist/
+build/
+*.egg-info/
+
+# Dependências travadas (opcional manter)
+# uv.lock
+
+# Variáveis de ambiente
+.env
+
+# Dados da Receita Federal (GBs)
+data/
+!data/.gitkeep
+
+# Banco de dados local
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
